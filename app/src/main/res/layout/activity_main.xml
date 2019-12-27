@@ -7,18 +7,14 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <!--    <ImageView-->
-    <!--        android:layout_width="wrap_content"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        android:contentDescription="@string/image_of_a_dice" />-->
-
-    <TextView
-        android:id="@+id/resultTextView"
+    <ImageView
+        android:id="@+id/diceImageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="1"
-        android:textSize="30sp" />
+        android:contentDescription="@string/image_of_a_dice"
+        android:src="@drawable/empty_dice"
+        tools:src="@drawable/dice_1" />
 
     <Button
         android:id="@+id/rollButton"
